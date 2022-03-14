@@ -18,37 +18,53 @@ $('#myModal').animate({opacity: 0}, 198,
 });
 });
 // кнопки в менюшке
+// $(document).ready(function(){
+//   $('#show').click(function(){
+//     event.preventDefault();
+//
+//     $('#img1').toggle();
+//     if($("#img1").is(':visible'))
+//       $("#img2").hide();
+//     else
+//       $("#img2").show();
+//   });
+// });
+// $(document).ready(function(){
+//   $('#show2').click(function(){
+//     event.preventDefault();
+//
+//     $('#img1').toggle();
+//     if($("#img1").is(':visible'))
+//       $("#img2").hide();
+//     else
+//       $("#img2").show();
+//   });
+// });
+// $(document).ready(function(){
+//   $('#show3').click(function(){
+//     event.preventDefault();
+//
+//     $('#img1').toggle();
+//     if($("#img1").is(':visible'))
+//       $("#img3").hide();
+//     else
+//       $("#img3").show();
+//
+//   });
+// });
 $(document).ready(function(){
-  $('#show').click(function(){
-    event.preventDefault();
-
-    $('#img1').toggle();
-    if($("#img1").is(':visible'))
-      $("#img2").hide();
-    else
-      $("#img2").show();
-  });
+	$('.butt_1').click(function(){
+	$('.big_fuck').attr('src', './img/big_window.svg');
+	})
+	$('.butt_2').click(function(){
+	$('.big_fuck').attr('src', './img/big_window_2.svg');
+	})
+	$('.butt_3').click(function(){
+	$('.big_fuck').attr('src', './img/big_window_3.svg');
 });
-$(document).ready(function(){
-  $('#show2').click(function(){
-    event.preventDefault();
-
-    $('#img1').toggle();
-    if($("#img1").is(':visible'))
-      $("#img2").hide();
-    else
-      $("#img2").show();
-  });
 });
-$(document).ready(function(){
-  $('#show3').click(function(){
-    event.preventDefault();
-
-    $('#img1').toggle();
-    if($("#img1").is(':visible'))
-      $("#img2").hide();
-    else
-      $("#img2").show();
-      
-  });
-});
+const cards = document.querySelectorAll('.imp');
+function flipCard() {
+this.classList.toggle('.flip');
+}
+cards.forEach(card => card.addEventListener('click', flipCard));

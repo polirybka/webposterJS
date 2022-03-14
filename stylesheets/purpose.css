@@ -67,3 +67,35 @@ display :none;
    margin-top: 10%;
    width:100%;
 }
+.imp{
+  grid-column: 38/44;
+  grid-row: 30/36;
+  z-index: 1;
+border: #333 1px solid;
+position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    /* box-shadow: 1px 1px 1px rgba(0,0,0,.3); */
+     /* transform: scale(1); */
+     transform-style: preserve-3d;
+     transition: transform .5s;
+}
+  .card1{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  }
+.card2{
+height: 100%;
+width: 100%;
+position: absolute;
+}
+.card1 {
+  transform: rotateY(180deg);
+}
+.card1, .card2{
+backface-visibility: hidden;
+}
+  .imp.flip {
+    transform: rotateY(180deg);
+  }

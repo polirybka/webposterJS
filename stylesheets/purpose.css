@@ -1,3 +1,16 @@
+.menu{
+  /* justify-self:end; */
+grid-column: 24/28;
+grid-row: 22;
+border: 2px solid #333;
+background-color: white;
+z-index: 1;
+text-align: center;
+}
+.button{
+text-decoration: none;
+text-decoration-color: black;
+}
 /* Вылетает менюшка */
 #myModal {
 width: 100%;
@@ -11,6 +24,7 @@ display: none;
 opacity: 0;
 z-index: 38;
   text-align: center;
+
 }
 #myModal #myModal__close {
 width: 100%; height: 21px;
@@ -32,12 +46,24 @@ display :none;
 }
 /* кнопки в менюшке */
 #img1 {
-  display: none;
+  display: run-in;
 }
 
 #img2 {
   display: none;
 }
+#img3 {
+  display: none;
+}
 .butt_1{
    margin-top: 40%;
+   width:100%;
+}
+.butt_2{
+   margin-top: 10%;
+   width:100%;
+}
+.butt_3{
+   margin-top: 10%;
+   width:100%;
 }

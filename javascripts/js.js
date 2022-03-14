@@ -19,13 +19,36 @@ $('#myModal').animate({opacity: 0}, 198,
 });
 // кнопки в менюшке
 $(document).ready(function(){
-  $("form#show").click(function(){
+  $('#show').click(function(){
     event.preventDefault();
 
-    $("#img1").toggle();
+    $('#img1').toggle();
     if($("#img1").is(':visible'))
       $("#img2").hide();
     else
       $("#img2").show();
+  });
+});
+$(document).ready(function(){
+  $('#show2').click(function(){
+    event.preventDefault();
+
+    $('#img1').toggle();
+    if($("#img1").is(':visible'))
+      $("#img2").hide();
+    else
+      $("#img2").show();
+  });
+});
+$(document).ready(function(){
+  $('#show3').click(function(){
+    event.preventDefault();
+
+    $('#img1').toggle();
+    if($("#img1").is(':visible'))
+      $("#img2").hide();
+    else
+      $("#img2").show();
+      
   });
 });

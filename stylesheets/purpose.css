@@ -1,0 +1,43 @@
+/* Вылетает менюшка */
+#myModal {
+width: 100%;
+ height: 218px;
+border: 2px solid #333;
+background-color: white;
+position: relative;
+grid-column: 9/12;
+grid-row: 7/17;
+display: none;
+opacity: 0;
+z-index: 38;
+  text-align: center;
+}
+#myModal #myModal__close {
+width: 100%; height: 21px;
+position: absolute;
+top: 1px;right: 11px;
+cursor: pointer;
+display: block;
+  font-size: 29px;
+
+}
+#myOverlay {
+z-index: 37;
+position: fixed;
+
+width: 100%; height: 100%;
+top: 0; left: 0;
+cursor :pointer;
+display :none;
+}
+/* кнопки в менюшке */
+#img1 {
+  display: none;
+}
+
+#img2 {
+  display: none;
+}
+.butt_1{
+   margin-top: 40%;
+}

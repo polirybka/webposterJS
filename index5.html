@@ -9,13 +9,6 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     </head>
     <body>
-      <script>
-      const cards = document.querySelectorAll('.imp');
-    function flipCard() {
-      this.classList.toggle('flip');
-    }
-    cards.forEach(card => card.addEventListener('click', flipCard));
-    </script>
 
       <div class="wrapper">
         <div class="box box1_1">GREEN SPOOKY HOUSE</div>
@@ -51,6 +44,8 @@
         <div class="box box2_11"></div>
         <div class="box box2_12"></div>
         <div class="box box2_13"></div>
+        <div class="box box2_14"></div>
+
 
         <div class="box box3_1"></div>
         <div class="box box3_2"></div>
@@ -78,6 +73,26 @@
     <div class="box box4_2">
       <img class="fuck" src="./img/big_window.svg">
   </div>
+  <div class="butt">
+    <a class="button" href="">Menu</a>
+  </div>
+
+  <div id="myModal">
+    <div class="container">
+      <form id="show">
+        <div type="submit" class="butt_1">Show</div>
+      </form>
+      <div id="img">
+      </div>
+      <div class="image1">
+        <img src="img/beach-pic.jpg" alt="photo of beach" id="img1">
+        <img src="img/lake-pic.jpg" alt="photo of lake" id="img2">
+      </div>
+    </div>
+<span id="myModal__close" class="close">ₓ</span>
+</div>
+<div id="myOverlay"></div>
+
 </div>
 
     </body>

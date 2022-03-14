@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <meta name="viewport" content="width=device-width">
+    <script src="javascripts/jquery-3.6.0.js" charset="utf-8"></script>
+    <script src="javascripts/js.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    </head>
+    <body>
+      <div class="first">
+        <!-- <img class="window" src="./img/window_1.svg"> -->
+        <div class="row_1 box1">
+            <img class="window" src="./img/window_1.svg">
+        </div>
+        <div class="row_1 box2">
+            <div class="line"></div>
+        </div>
+        <div class="row_1 box3">
+            <div class="line"></div>
+        </div>
+        <div class="row_2 box4">
+          <div class="line"></div>
+        </div>
+        <div class="row_2 box5"></div>
+        <div class="row_2 box6"></div>
+        <div class="row_3 box7">
+
+          <div class="line"></div>
+        </div>
+        <div class="row_3 box8"></div>
+        <div class="row_3 box9"></div>
+        </div>
+      <div class="container">
+        <div></div>
+          </div>
+      <div class="wrapper">
+        <div class="imp">
+          <img class="card1" src="./img/Group4.svg">
+          <img class="card2" src="./img/Group2.svg">
+        </div>
+        <div class="imp">
+          <img class="card1" src="./img/Group4.svg">
+          <img class="card2" src="./img/Group3.svg">
+        </div>
+        <div class="imp"></div>
+        <div class="imp"></div>
+        <div class="imp"></div>
+        <div class="imp"></div>
+      </div>
+<script>
+  const cards = document.querySelectorAll('.imp');
+function flipCard() {
+  this.classList.toggle('flip');
+}
+cards.forEach(card => card.addEventListener('click', flipCard));
+</script>
+    </body>
+  </html>

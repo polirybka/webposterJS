@@ -18,7 +18,7 @@
 }
 .fuck{
   width:100%;
-z-index: 2;
+z-index: 3;
 }
 .big_fuck{
   width:100%;
@@ -28,12 +28,13 @@ z-index: 2;
   z-index: 1;
 }
 .box1_1{
-  /* align-self:start; */
+  font-family: 'Wermut';
+  font-size: 17px;
   grid-column:11/30;
   grid-row:3/4;
   vertical-align: middle;
   position: relative;
-   top: 20%;
+   top: 10%;
 
 }
 .box1_2{
@@ -224,6 +225,7 @@ border-left: 2px solid #333;
 grid-column: 1/44;
 grid-row: 29;
 border-bottom: 2px solid #333;
+z-index: 1;
 }
 .box3_5{
   /* justify-self:end; */
@@ -254,6 +256,7 @@ border-bottom: 2px solid #333;
 grid-column: 37;
 grid-row: 30/68;
 border-right: 2px solid #333;
+z-index: 4;
 }
 .box3_10{
   /* justify-self:end; */
@@ -291,11 +294,64 @@ grid-column: 14/40;
 grid-row: 24/54;
 z-index: 1;
 }
-.line{
+.box3_16{
+  font-family: 'Wermut';
+  font-size: 17px;
+  grid-column:11/30;
+  grid-row:72/73;
+  vertical-align: middle;
+  position: relative;
+   top: 20%;
+}
+.box3_17{
+  /* justify-self:end; */
+grid-column: 44/61;
+grid-row: 41;
+border-bottom: 2px solid #333;
+}
+.box3_18{
+grid-column: 41/43;
+grid-row: 27/29;
+}
+.box3_19{
+grid-column: 35/37;
+grid-row: 33/35;
+}
+.box3_20{
+grid-column: 29/31;
+grid-row: 39/41;
+}
+.box3_21{
+grid-column: 23/25;
+grid-row: 45/47;
+}
+.box3_22{
+grid-column: 17/19;
+grid-row: 51/53;
+}
+.box3_23{
+  font-family: 'Wermut';
+  font-size: 17px;
+  grid-column:11/20;
+  grid-row:31/32;
+  vertical-align: middle;
+  position: relative;
+
+}
+.box3_24{
+  font-family: 'Wermut';
+  font-size: 17px;
+  grid-column:21/33;
+  grid-row:31/35;
+  vertical-align: middle;
+  position: relative;
+
+}
+/* .line{
 transform: rotate(-45deg);
 border-top: 2px solid #333;
 margin-top: 50%;
-}
+} */
 /* .box4_1{
 grid-column: 38/44;
 grid-row: 30/36;
@@ -305,4 +361,14 @@ grid-row: 30/36;
 grid-column: 14/38;
 grid-row: 5/22;
 z-index: 3;
+}
+.box5_1{
+  /* justify-self:end; */
+grid-column: 32/38;
+grid-row: 36/42;
+}
+.box5_2{
+  /* justify-self:end; */
+grid-column: 38/44;
+grid-row: 36/42;
 }

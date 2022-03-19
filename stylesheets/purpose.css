@@ -10,6 +10,9 @@ text-align: center;
 .button{
 text-decoration: none;
 text-decoration-color: black;
+font-family: 'Wermut';
+font-size: 17px;
+top:20%;
 }
 /* Вылетает менюшка */
 #myModal {
@@ -99,3 +102,200 @@ backface-visibility: hidden;
   .imp.flip {
     transform: rotateY(180deg);
   }
+  @keyframes cola {
+    0%   {background-color: #C06161;}
+    6%  {background-color: #5CA191;}
+    14%  {background-color: #F4D175;}
+    21%  {background-color: #F0BDA7;}
+    28% {background-color: #BAC9FF;}
+    35%   {background-color: #A5D1A7;}
+    42%  {background-color: #B696D6;}
+    49%  {background-color: #CD6D6D;}
+    57%  {background-color: #A4AC9D;}
+    64% {background-color: #CEAADF;}
+    71%  {background-color: #EBB4B4;}
+    78%  {background-color: #E5D3A1;}
+    85%  {background-color: #829CAE;}
+    92%  {background-color: #D88E78;}
+    100% {background-color: #D7A784;}
+  }
+.rectengal_case_1{
+  grid-column: 1/8;
+  grid-row: 24;
+  background-color: #C06161;
+  animation: cola 15s infinite linear;
+}
+.rectengal_case_2{
+  grid-column: 1/8;
+  grid-row: 25;
+  background-color: #5CA191;
+  animation: cola 15s 1s infinite linear;
+}
+.rectengal_case_3{
+  grid-column: 1/8;
+  grid-row: 26;
+  background-color: #F4D175;
+  animation: cola 15s 2s infinite linear;
+}
+.rectengal_case_4{
+  grid-column: 1/8;
+  grid-row: 27;
+  background-color: #BAC9FF;
+  animation: cola 15s 3s infinite linear;
+}
+.rectengal_case_5{
+  grid-column: 1/8;
+  grid-row: 28;
+  background-color: #A5D1A7;
+  animation: cola 15s 4s infinite linear;
+}
+.rectengal_case_6{
+  grid-column: 1/8;
+  grid-row: 29;
+  background-color: #B696D6;
+  animation: cola 15s 5s infinite linear;
+}
+.rectengal_case_7{
+  grid-column: 1/8;
+  grid-row: 30;
+  background-color: #CD6D6D;
+  animation: cola 15s 6s infinite linear;
+}
+.rectengal_case_8{
+  grid-column: 1/8;
+  grid-row: 31;
+  background-color: #A4AC9D;
+  animation: cola 15s 7s infinite linear;
+}
+.rectengal_case_9{
+  grid-column: 1/8;
+  grid-row: 32;
+  background-color: #CEAADF;
+  animation: cola 15s 8s infinite linear;
+}
+.rectengal_case_10{
+  grid-column: 1/8;
+  grid-row: 33;
+  background-color: #EBB4B4;
+  animation: cola 15s 9s infinite linear;
+}
+.rectengal_case_11{
+  grid-column: 1/8;
+  grid-row: 34;
+  background-color: #E5D3A1;
+  animation: cola 15s 10s infinite linear;
+}
+.rectengal_case_12{
+  grid-column: 1/8;
+  grid-row: 35;
+  background-color: #829CAE;
+  animation: cola 15s 11s infinite linear;
+}
+.rectengal_case_13{
+  grid-column: 1/8;
+  grid-row: 36;
+  background-color: #D88E78;
+  animation: cola 15s 12s infinite linear;
+}
+.rectengal_case_14{
+  grid-column: 1/8;
+  grid-row: 37;
+  background-color: #D7A784;
+  animation: cola 15s 13s infinite linear;
+}
+.rectengal_case_15{
+  grid-column: 1/8;
+  grid-row: 38;
+  background-color: #BAC9FF;
+  animation: cola 15s 14s infinite linear;
+}
+.rectengal_case_16{
+  grid-column: 1/8;
+  grid-row: 39;
+  background-color: #5CA191;
+  animation: cola 15s 1s infinite linear;
+}
+.rectengal_case_17{
+  grid-column: 1/8;
+  grid-row: 40;
+  background-color: #F4D175;
+  animation: cola 15s 2s infinite linear;
+}
+.rectengal_case_18{
+  grid-column: 1/8;
+  grid-row: 41;
+  background-color: #BAC9FF;
+  animation: cola 15s 3s infinite linear;
+}
+.rectengal_case_19{
+  grid-column: 1/8;
+  grid-row: 42;
+  background-color: #A5D1A7;
+  animation: cola 15s 4s infinite linear;
+}
+.rectengal_case_20{
+  grid-column: 1/8;
+  grid-row: 43;
+  background-color: #B696D6;
+  animation: cola 15s 5s infinite linear;
+}
+.rectengal_case_21{
+  grid-column: 1/8;
+  grid-row: 44;
+  background-color: #CD6D6D;
+  animation: cola 15s 6s infinite linear;
+}
+.rectengal_case_22{
+  grid-column: 1/8;
+  grid-row: 45;
+  background-color: #A4AC9D;
+  animation: cola 15s 7s infinite linear;
+}
+.rectengal_case_23{
+  grid-column: 1/8;
+  grid-row: 46;
+  background-color: #CEAADF;
+  animation: cola 15s 8s infinite linear;
+}
+.rectengal_case_24{
+  grid-column: 1/8;
+  grid-row: 47;
+  background-color: #EBB4B4;
+  animation: cola 15s 9s infinite linear;
+}
+.rectengal_case_25{
+  grid-column: 1/8;
+  grid-row: 48;
+  background-color: #E5D3A1;
+  animation: cola 15s 10s infinite linear;
+}
+.rectengal_case_26{
+  grid-column: 1/8;
+  grid-row: 49;
+  background-color: #829CAE;
+  animation: cola 15s 11s infinite linear;
+}
+.rectengal_case_27{
+  grid-column: 1/8;
+  grid-row: 50;
+  background-color: #D88E78;
+  animation: cola 15s 12s infinite linear;
+}
+.rectengal_case_28{
+  grid-column: 1/8;
+  grid-row: 51;
+  background-color: #D7A784;
+  animation: cola 15s 13s infinite linear;
+}
+.rectengal_case_29{
+  grid-column: 1/8;
+  grid-row: 52;
+  background-color: #BAC9FF;
+  animation: cola 15s 14s infinite linear;
+}
+.rectengal_case_30{
+  grid-column: 1/8;
+  grid-row: 53;
+  background-color: #5CA191;
+  animation: cola 15s 1s infinite linear;
+}

@@ -362,6 +362,18 @@ grid-column: 14/38;
 grid-row: 5/22;
 
 }
+.box4_3{
+  /* justify-self:end; */
+grid-column: 48/58;
+grid-row: 22/32;
+
+}
+.box4_4{
+  /* justify-self:end; */
+grid-column: 54/59;
+grid-row: 16/21;
+
+}
 .box5_1{
   /* justify-self:end; */
 grid-column: 32/38;

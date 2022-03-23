@@ -299,3 +299,66 @@ backface-visibility: hidden;
   background-color: #5CA191;
   animation: cola 15s 1s infinite linear;
 }
+.box4_5{
+  grid-column: 1/8;
+  grid-row: 1/24;
+  background: url('../img/anim_plush.png');
+  background-image: 100%;
+  animation: run 2.8s steps(1) infinite;
+}
+@keyframes run {
+  0%{ background-position: 0px top;}
+  5%{ background-position: -163px top;}
+  10%{ background-position: -326px top;}
+  15%{ background-position: -489px top;}
+  20%{ background-position: -652px top;}
+  25%{ background-position: -815px top;}
+  30%{ background-position: -978px top;}
+  35%{ background-position: -1141px top;}
+  40%{ background-position: -1304px top;}
+  45%{ background-position: -1467px top;}
+  50%{ background-position: -1630px top;}
+  55%{ background-position: -1793px top;}
+  60%{ background-position: -1956px top;}
+  65%{ background-position: -2119px top;}
+  70%{ background-position: -2282px top;}
+  75%{ background-position: -2445px top;}
+  80%{ background-position: -2608px top;}
+  85%{ background-position: -2771px top;}
+  90%{ background-position: -2934px top;}
+  95%{ background-position: -3097px top;}
+  100%{ background-position: -3423px top;}
+
+}
+.box4_6{
+  grid-column: 45/61;
+  grid-row: 42/68;
+  background: url('../img/anim_plush_big.png');
+  background-image: 100%;
+  animation: puck 2.8s steps(1) infinite;
+  overflow: hidden;
+}
+@keyframes puck {
+  0%{ background-position: 0px top;}
+  5%{ background-position: -377px top;}
+  10%{ background-position: -754px top;}
+  15%{ background-position: -1131px top;}
+  20%{ background-position: -1508px top;}
+  25%{ background-position: -1885px top;}
+  30%{ background-position: -2262px top;}
+  35%{ background-position: -2639px top;}
+  40%{ background-position: -3016px top;}
+  45%{ background-position: -3393px top;}
+  50%{ background-position: -3770px top;}
+  55%{ background-position: -4147px top;}
+  60%{ background-position: -4524px top;}
+  65%{ background-position: -4901px top;}
+  70%{ background-position: -5278px top;}
+  75%{ background-position: -5655px top;}
+  80%{ background-position: -6032px top;}
+  85%{ background-position: -6409px top;}
+  90%{ background-position: -6786px top;}
+  95%{ background-position: -7163px top;}
+  100%{ background-position: -7540px top;}
+
+}
